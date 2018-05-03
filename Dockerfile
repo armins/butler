@@ -1,4 +1,4 @@
-FROM ruby:2.3.4
+FROM ruby:2.5.1-alpine3.7
 RUN apt-get update -qq && apt-get install -y build-essential nodejs
 RUN mkdir /butler
 WORKDIR /butler
