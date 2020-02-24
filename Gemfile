@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rake'
+gem 'rake', '>= 12.3.3'
 gem 'bundler'
 gem 'guard-rspec', '>= 4.7.3'
 gem 'rspec'
